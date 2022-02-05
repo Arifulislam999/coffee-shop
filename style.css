@@ -26,7 +26,7 @@ nav::before {
     width: 100%;
     height: 1px;
     position: absolute;
-    top: 72px;
+    top: 75px;
     background-color: white;
 }
 
@@ -42,7 +42,6 @@ nav::before {
 
 .bannar img {
     width: 100%;
-    z-index: 100;
 }
 
 .content {
@@ -139,6 +138,11 @@ ul li a {
     float: right;
 }
 
+.ul {
+    display: table;
+    height: 100%;
+}
+
 .s-bar {
     display: inline-block;
     width: 260px;
@@ -162,6 +166,30 @@ ul li a {
     transition: all 0.5s ease;
     color: black;
     font-size: 22px;
+}
+
+.tol-bar div i:first-child {
+    cursor: pointer;
+}
+
+.form input {
+    width: 50%;
+    z-index: 100;
+    padding: 8px;
+    /* background-color: red; */
+    position: absolute;
+    left: 45%;
+    right: 10%;
+    top: 77px;
+}
+
+.form i {
+    color: black;
+    position: absolute;
+    top: 88px;
+    z-index: 101;
+    font-size: 25px;
+    right: 90px;
 }
 
 
@@ -229,5 +257,22 @@ ul li a {
     }
     .text-p button:hover {
         letter-spacing: 2px;
+    }
+    .form input {
+        width: 80%;
+        z-index: 100;
+        padding: 8px;
+        /* background-color: red; */
+        position: absolute;
+        left: 10%;
+        top: 77px;
+    }
+    .form i {
+        color: black;
+        position: absolute;
+        top: 88px;
+        z-index: 101;
+        font-size: 25px;
+        right: 50px;
     }
 }
