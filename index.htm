@@ -98,6 +98,123 @@
         </div>
     </header>
 
+    <section id="about">
+        <div class="container">
+            <h1 class="ha py-4 text-center">ABOUT <strong class="text-white">US</strong></h1>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 pic">
+                    <img src="images/about-img.jpeg" alt="" />
+                </div>
+                <div class="col-sm-12 col-md-6 pa">
+                    <h2 class="text-white text-center pt-4">What Makes Our Coffee Special?</h2>
+                    <p class="text-white py-1">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error aliquid ullam sit itaque dicta quaerat accusamus exLorem ipsum dolor sit amet consectetur, adipisicing elit. Error aliquid ullam sit itaque dicta quaerat accusamus exLorem ipsum dolor sit
+                        amet consectetur, adipisicing elit. Error aliquid ullam sit itaque dicta quaerat accusamus ex, eos molestiae perspiciatis!
+                    </p>
+
+                    <p class="text-white py-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ab iure mollitia vel unde assumenda quasi nam sed Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error aliquid ullam sit itaque dicta quaerat accusamus exLorem ipsum dolor sit
+                        amet consectetur, adipisicing elit. Error aliquid ullam sit itaque dicta quaerat accusamus exveniam corrupti maiores beatae. Aliquid veniam recusandae ad dolorem libero?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <h1 class="ha py-4 text-center">OUR <strong class="text-white">MENU</strong></h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 mt-1">
+                    <div id="card-1">
+                        <div class="text-white text-center">
+                            <div class="tex">
+                                <img class="py-4" src="images/menu-1.png" alt="" />
+
+                                <h4>Tasty And Healty</h4>
+                                <h3>$15 <s id="small">20.99</s></h3>
+                                <h6>Add To Cart</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 mt-1">
+                    <div id="card-1">
+                        <div class="text-white text-center">
+                            <div class="tex">
+                                <img class="py-4" src="images/menu-2.png" alt="" />
+
+                                <h4>Tasty And Healty</h4>
+                                <h3>$15 <s id="small">20.99</s></h3>
+                                <h6>Add To Cart</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 mt-1">
+                    <div id="card-1">
+                        <div class="text-white text-center">
+                            <div class="tex">
+                                <img class="py-4" src="images/menu-6.png" alt="" />
+
+                                <h4>Tasty And Healty</h4>
+                                <h3>$15 <s id="small">20.99</s></h3>
+                                <h6>Add To Cart</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-12 col-md-4 mt-1">
+                    <div id="card-1">
+                        <div class="text-white text-center">
+                            <div class="tex">
+                                <img class="py-4" src="images/menu-3.png" alt="" />
+
+                                <h4>Tasty And Healty</h4>
+                                <h3>$15 <s id="small">20.99</s></h3>
+                                <h6>Add To Cart</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 mt-1">
+                    <div id="card-1">
+                        <div class="text-white text-center">
+                            <div class="tex">
+                                <img class="py-4" src="images/menu-4.png" alt="" />
+
+                                <h4>Tasty And Healty</h4>
+                                <h3>$15 <s id="small">20.99</s></h3>
+                                <h6>Add To Cart</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 mt-1">
+                    <div id="card-1">
+                        <div class="text-white text-center">
+                            <div class="tex">
+                                <img class="py-4" src="images/menu-5.png" alt="" />
+
+                                <h4>Tasty And Healty</h4>
+                                <h3>$15 <s id="small">20.99</s></h3>
+                                <h6>Add To Cart</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Header and Nav Part End Here  -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -109,13 +226,14 @@
     let side = document.querySelector(".fa-bars");
 
     let side_t = document.querySelector(".side-bar");
+    side_t.style.display = "none";
 
     side.addEventListener("click", () => {
-        if (side_t.style.transform != "translateX(0px)") {
-            side_t.style.transform = "translateX(0px)";
+        if (side_t.style.display === "none") {
+            side_t.style.display = "inline";
             // side_t.style.display = "inline";
         } else {
-            side_t.style.transform = "translateX(260px)";
+            side_t.style.display = "none";
         }
     });
 </script>
