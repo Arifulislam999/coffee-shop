@@ -543,6 +543,42 @@ iframe {
 }
 
 
+/* .bb {
+    width: 55%;
+} */
+
+.Box {
+    display: flex;
+    /* width: 45%; */
+    justify-content: space-around;
+}
+
+.Box img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.Box i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#card-part-1 {
+    width: 50%;
+}
+
+#card-part {
+    position: absolute;
+    width: 70%;
+    left: 31%;
+    top: 88px;
+    transform: translateX(-2500px);
+    transition: all 0.6s ease;
+}
+
+
 /* Media query  */
 
 @media only screen and (max-width: 746px) {
@@ -575,6 +611,7 @@ iframe {
         display: flex;
         top: 15px;
         right: 0px;
+        transform: translateX(-900px);
         position: absolute;
         transition: all 0.5s ease;
     }

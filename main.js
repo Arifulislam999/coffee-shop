@@ -13,6 +13,20 @@
     });
 }
 
+{
+    let dco = document.querySelector("#card-part");
+    let docc = document.querySelector(".fa-shopping-cart");
+    dco.style.transform = "translateX(-2500px)";
+
+    docc.addEventListener("click", () => {
+        if (dco.style.transform === "translateX(-2500px)") {
+            dco.style.transform = "translateX(0px)";
+        } else {
+            dco.style.transform = "translateX(-2500px)";
+        }
+    });
+}
+
 // owl carousel part code
 {
     $(".carousel").owlCarousel({
