@@ -1,12 +1,14 @@
 {
-    let form = document.querySelector(".form");
-    let form_f = document.querySelector(".fa-search");
-    form.style.display = "none";
+    let form = document.querySelector("#fr");
+    let form_f = document.querySelector(".fae");
+    console.log(form_f);
+    // form.style.display = "none";
+    form.style.transform = "translateY(-60px)";
     form_f.addEventListener("click", () => {
-        if (form.style.display === "none") {
-            form.style.display = "inline";
+        if (form.style.transform === "translateY(-60px)") {
+            form.style.transform = "translateY(0px)";
         } else {
-            form.style.display = "none";
+            form.style.transform = "translateY(-60px)";
         }
     });
 }

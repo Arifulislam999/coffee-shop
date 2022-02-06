@@ -140,8 +140,12 @@ ul li a {
 
 .side-bar {
     align-items: center;
+    position: absolute;
     display: flex;
     float: right;
+    transition: all 0.5s ease;
+    width: 100%;
+    display: none;
 }
 
 .ul {
@@ -151,11 +155,12 @@ ul li a {
 
 .s-bar {
     display: inline-block;
-    width: 260px;
+    top: 50px;
+    width: 100%;
     margin: auto;
     align-items: center;
     transition: all 0.5s ease;
-    z-index: -10;
+    position: fixed;
 }
 
 .s-bar li {
@@ -178,24 +183,26 @@ ul li a {
     cursor: pointer;
 }
 
-.form input {
-    width: 50%;
-    z-index: 100;
-    padding: 8px;
-    /* background-color: red; */
-    position: absolute;
-    left: 45%;
-    right: 10%;
-    top: 77px;
+#fr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.form i {
-    color: black;
-    position: absolute;
-    top: 88px;
-    z-index: 101;
+#fr form {
+    position: relative;
+}
+
+#fr input {
+    padding: 10px;
+    z-index: 1000;
+}
+
+#fr form i {
     font-size: 25px;
-    right: 90px;
+    position: absolute;
+    top: 33px;
+    right: 3%;
 }
 
 #about {
@@ -528,6 +535,13 @@ iframe {
     color: black;
 }
 
+#fr {
+    position: absolute;
+    width: 60%;
+    top: 58px;
+    right: -2%;
+}
+
 
 /* Media query  */
 
@@ -625,5 +639,11 @@ iframe {
         position: absolute;
         top: 70px;
         background-color: white;
+    }
+    #fr {
+        position: absolute;
+        width: 90%;
+        top: 58px;
+        right: -2%;
     }
 }
