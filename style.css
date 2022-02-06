@@ -645,5 +645,9 @@ iframe {
         width: 90%;
         top: 58px;
         right: -2%;
+        display: none;
+    }
+    #face {
+        display: none;
     }
 }

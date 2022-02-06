@@ -70,7 +70,7 @@
             </div>
             <div class="tol-bar">
                 <div>
-                    <i class="fas fa-search fae"></i>
+                    <i id="face" class="fas fa-search fae"></i>
                     <i class="fas fa-shopping-cart"></i>
                     <i class="fas fa-bars"></i>
                 </div>
@@ -545,16 +545,16 @@
 <script>
     let side = document.querySelector(".fa-bars");
     let side_t = document.querySelector("#side-b");
-    side_t.style.transform = "translateX(-500px)";
+    side_t.style.transform = "translateX(-900px)";
     // side_t.style.display = "none";
 
     side.addEventListener("click", () => {
-        if (side_t.style.transform === "translateX(-500px)") {
+        if (side_t.style.transform === "translateX(-900px)") {
             side_t.style.transform = "translateX(0px)";
             console.log("arif");
             // side_t.style.display = "inline";
         } else {
-            side_t.style.transform = "translateX(-500px)";
+            side_t.style.transform = "translateX(-900px)";
         }
     });
 </script>
