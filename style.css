@@ -256,8 +256,8 @@ ul li a {
     background-color: white;
     position: absolute;
     left: 0px;
-    top: 10px;
-    z-index: 100000;
+    top: 9px;
+    z-index: 100;
 }
 
 #card-1 h6:hover {
@@ -270,6 +270,261 @@ ul li a {
 
 #card-1:hover .tex {
     background-color: white;
+    color: black;
+}
+
+#product {
+    background-color: black;
+}
+
+.box-1 {
+    display: table;
+    font-size: 28px;
+    background-color: black;
+}
+
+.box-1 i {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 3px;
+    color: white;
+    border-radius: 2px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.box-1 i:hover {
+    background-color: gold;
+}
+
+#card-2 {
+    background-color: black;
+    border: 1px solid gray;
+}
+
+.box-3:hover {
+    color: black;
+}
+
+.box-2 img {
+    transform: scale(0.9);
+    transition: all 0.5s ease;
+    border: 5px solid red;
+}
+
+.box-2 img:hover {
+    transform: scale(1);
+}
+
+#customer {
+    background-color: black;
+}
+
+
+/* ======================================== */
+
+.box-n {
+    border-radius: 10px;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    border: 5px solid #778899;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.box-img img {
+    width: 50%;
+    border-radius: 50%;
+    margin: auto;
+    border: 5px solid red;
+}
+
+#team-img {
+    width: 130px;
+    height: 140px;
+}
+
+.te {
+    font-size: 27px;
+    /* font-family: "Quintessential", cursive; */
+    font-family: "Noto Serif", serif;
+}
+
+.box-img strong {
+    font-family: "Quintessential", cursive;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.owl-dot {
+    height: 10px;
+    width: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0 5px;
+    outline: non;
+    border: 2px solid red !important;
+    transition: all 0.5s ease;
+}
+
+.owl-dot:hover,
+.owl-dot.active {
+    background-color: #52595d !important;
+}
+
+
+/* owl carousel end  */
+
+#star {
+    color: gold;
+    font-size: 25px;
+}
+
+#img-r {
+    width: 75px;
+    height: 75px;
+    border-radius: 0%;
+    border: none;
+}
+
+#contact {
+    background-color: black;
+}
+
+.map {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.con h6 {
+    display: table;
+    color: wheat;
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.con h6:hover {
+    background-color: gold;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.form-group input {
+    color: black;
+}
+
+#blog {
+    background-color: black;
+}
+
+#card-5 {
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+#card-5 img {
+    transform: scale(0.94);
+    transition: all 0.3s ease;
+    border-radius: 3px;
+}
+
+#card-5:hover .im {
+    transform: scale(1);
+}
+
+.cc {
+    display: table;
+    border: 1px solid gray;
+    padding: 12px 24px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.cc:hover {
+    background-color: gold;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.icon i {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 10px 12px;
+    font-size: 23px;
+    color: gold;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.icon i:hover {
+    color: black;
+    background-color: white;
+}
+
+#footter {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.f-menu ul li {
+    padding: 8px 12px;
+    border: 1px solid gray;
+    margin: 5px 8px;
+}
+
+.f-menu ul li a {
+    text-align: center;
+    padding-bottom: 5px;
+    padding: 0px 10px;
+    transition: all 0.3s ease;
+}
+
+.f-menu ul li:hover {
+    background-color: gold;
     color: black;
 }
 
