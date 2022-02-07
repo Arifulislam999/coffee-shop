@@ -582,6 +582,13 @@ iframe {
     cursor: pointer;
 }
 
+#card-part-1 {
+    position: fixed;
+    width: 60%;
+    top: -5px;
+    right: 22px;
+}
+
 
 /* after effect part  */
 
@@ -742,5 +749,11 @@ iframe {
         background-color: gray;
         left: 0px;
         top: 40px;
+    }
+    #card-part-1 {
+        position: fixed;
+        width: 100%;
+        top: -5px;
+        right: 10px;
     }
 }
